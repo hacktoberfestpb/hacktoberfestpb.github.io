@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -42,7 +42,6 @@
       rel="stylesheet"
       href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="./css/hero.css" />
     <link rel="stylesheet" type="text/css" href="./css/hacktoberfest.css" />
     <link
       rel="stylesheet"
@@ -58,8 +57,16 @@
               <div class="navbar-end">
                 <div class="tabs is-right">
                   <ul>
-                    <li><a class="hacktoberfest-menu-item is-active">Home</a></li>
-                    <li><a class="hacktoberfest-menu-item" href="code-of-conduct.html">Code of Conduct</a></li>
+                    <li>
+                      <a class="hacktoberfest-menu-item is-active">Home</a>
+                    </li>
+                    <li>
+                      <a
+                        class="hacktoberfest-menu-item"
+                        href="code-of-conduct.html"
+                        >Code of Conduct</a
+                      >
+                    </li>
                     <li>
                       <a
                         class="hacktoberfest-menu-item"
@@ -80,7 +87,10 @@
     <section class="container">
       <div class="intro column is-8 is-offset-2">
         <figure class="image">
-          <img src="./images/HF19_PB_LOGO.png" />
+          <img
+            src="./images/HF19_PB_LOGO.png"
+            alt="hacktoberfest paderborn logo"
+          />
         </figure>
       </div>
       <div class="intro column is-8 is-offset-2 bg1">
@@ -90,27 +100,35 @@
       </div>
       <div class="intro column is-8 is-offset-2">
         <h1 class="title">Participating Communities</h1>
-        <a
-          class="link"
-          href="https://twitter.com/ttn_paderborn"
-          target="_blank"
-          rel="noopener"
-          >The Things Network Paderborn</a
-        >
-        <a
-          class="link"
-          href="https://paderbornjs.org/"
-          target="_blank"
-          rel="noopener"
-          >PaderbornJS</a
-        >
-        <a
-          class="link"
-          href="https://jug-pb.gitlab.io"
-          target="_blank"
-          rel="noopener"
-          >Java User Group Paderborn</a
-        >
+        <div class="columns">
+          <div class="column">
+            <a
+              class="link"
+              href="https://twitter.com/ttn_paderborn"
+              target="_blank"
+              rel="noopener"
+              >The Things Network Paderborn</a
+            >
+          </div>
+          <div class="column">
+            <a
+              class="link"
+              href="https://paderbornjs.org/"
+              target="_blank"
+              rel="noopener"
+              >PaderbornJS</a
+            >
+          </div>
+          <div class="column">
+            <a
+              class="link"
+              href="https://jug-pb.gitlab.io"
+              target="_blank"
+              rel="noopener"
+              >Java User Group Paderborn</a
+            >
+          </div>
+        </div>
       </div>
       <div class="intro column is-8 is-offset-2">
         <h1 class="title">Sponsored by</h1>
@@ -121,7 +139,7 @@
                 href="https://www.itemis.com/de/"
                 target="_blank"
                 rel="noopener"
-                ><img src="./images/itemis.png"
+                ><img src="./images/itemis.png" alt="itemis ag logo"
               /></a>
             </figure>
           </div>
@@ -131,17 +149,14 @@
                 href="https://www.digitalocean.com/"
                 target="_blank"
                 rel="noopener"
-                ><img src="./images/do-logo.png"
+                ><img src="./images/do-logo.png" alt="digitalocean logo"
               /></a>
             </figure>
           </div>
           <div class="column">
             <figure class="image" style="width: 60px">
-              <a
-                href="https://dev.to/"
-                target="_blank"
-                rel="noopener"
-                ><img src="./images/dev-logo.png"
+              <a href="https://dev.to/" target="_blank" rel="noopener"
+                ><img src="./images/dev-logo.png" alt="dev logo"
               /></a>
             </figure>
           </div>
