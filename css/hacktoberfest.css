@@ -11,7 +11,7 @@ body {
 }
 
 .navbar-menu {
-    background: rgb(21, 35, 71) none repeat scroll 0% 0%;
+  background: rgb(21, 35, 71) none repeat scroll 0% 0%;
   flex-grow: 1 !important;
   flex-shrink: 0 !important;
   align-items: stretch;
@@ -46,10 +46,18 @@ body {
   border-bottom: none !important;
 }
 
+.hacktoberfest-menu-item.is-active {
+  border-bottom: 1px solid #fff922 !important;
+}
+
 .hacktoberfest-menu-item:hover {
   border-bottom: 2px solid #fff922 !important;
 }
 
 .footer-content {
   text-align: center;
+}
+
+.code-of-conduct {
+    color: #C1C1C1;
 }
