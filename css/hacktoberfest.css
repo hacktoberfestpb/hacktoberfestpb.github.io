@@ -1,43 +1,55 @@
 html {
-    background: rgb(21, 35, 71) none repeat scroll 0% 0%;
+  background: rgb(21, 35, 71) none repeat scroll 0% 0%;
 }
 body {
+  background: rgb(21, 35, 71) none repeat scroll 0% 0%;
+  color: #4a4a4a;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: Space Mono, monospace;
+}
+
+.navbar-menu {
     background: rgb(21, 35, 71) none repeat scroll 0% 0%;
-    color: #4a4a4a;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    font-family: Space Mono,monospace;
+  flex-grow: 1 !important;
+  flex-shrink: 0 !important;
+  align-items: stretch;
+  display: flex;
+}
+.navbar-end {
+  justify-content: flex-end !important;
+  margin-left: auto !important;
 }
 
 .link:hover {
-    color: #FF00AA !important;
+  color: #ff00aa !important;
 }
 .footer {
-    background: rgb(21, 35, 71) none repeat scroll 0% 0%;
+  background: rgb(21, 35, 71) none repeat scroll 0% 0%;
 }
 
 .hero {
-    background: rgb(21, 35, 71) none repeat scroll 0% 0%;
+  background: rgb(21, 35, 71) none repeat scroll 0% 0%;
 }
 
 .title {
-    color: white;
+  color: white;
 }
 
 .subtitle {
-    color: #99A1B3;
+  color: #99a1b3;
 }
 
 .hacktoberfest-menu-item {
-    color: white !important;
-    border-bottom: none !important;
+  color: white !important;
+  border-bottom: none !important;
 }
 
 .hacktoberfest-menu-item:hover {
-    border-bottom: 2px solid #FFF922 !important;
+  border-bottom: 2px solid #fff922 !important;
 }
 
 .footer-content {
-    text-align: center;
+  text-align: center;
 }
